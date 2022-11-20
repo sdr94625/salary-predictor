@@ -15,18 +15,20 @@
       </div>
     </div>
     <h2 class="title is-2">Choose a Range of Dates to Predict</h2>
-    <form class="formContents">
-      <p class="startDate">
-        <label>Start Date: </label
-        ><input type="date" min="2022-10-28" max="2022-12-25" />
-      </p>
-      <p class="endDate">
-        <label>End Date: </label
-        ><input type="date" min="2022-10-29" max="2022-12-26" />
-      </p>
+    <form method="post" action="prediction.php">
+      <div class="formContents">
+        <p class="startDate">
+          <label>Start Date: </label
+          ><input type="date" min="2022-10-28" max="2022-12-25" />
+        </p>
+        <p class="endDate">
+          <label>End Date: </label
+          ><input type="date" min="2022-10-29" max="2022-12-26" />
+        </p>
+      </div>
+      <div class="submitButton">
+        <input type="submit" class="button is-primary" />
+      </div>
     </form>
-    <div class="submitButton">
-      <button><img src="imgs/2021 Twitter logo - blue.png" width="8%"></button>
-    </div>
   </body>
 </html>
