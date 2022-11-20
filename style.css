@@ -9,7 +9,7 @@ html {
   flex-direction: row;
 }
 
-.header {
+.notification.is-primary {
   width: 100%;
   text-align: center;
 }
