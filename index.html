@@ -14,13 +14,19 @@
         <h1 class="title">Twitter Stock Predictor</h1>
       </div>
     </div>
-    <div class="formContents">
-      <form>
-        <p><label>Start Date: </label><input type="date" max="2022-12-10" /></p>
-        <p><label>End Date: </label><input type="date" max="2022-12-10" /></p>
-        <input type="submit" />
-        <input type="reset" />
-      </form>
+    <h2 class="title is-2">Choose a Range of Dates to Predict</h2>
+    <form class="formContents">
+      <p class="startDate">
+        <label>Start Date: </label
+        ><input type="date" min="2022-10-28" max="2022-12-25" />
+      </p>
+      <p class="endDate">
+        <label>End Date: </label
+        ><input type="date" min="2022-10-29" max="2022-12-26" />
+      </p>
+    </form>
+    <div class="submitButton">
+      <button class="button is-primary">Make a Prediction</button>
     </div>
   </body>
 </html>

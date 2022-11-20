@@ -4,12 +4,42 @@ html {
   background-color: hsl(0, 0%, 29%);
 }
 
+form p {
+  color: white;
+}
+
+body {
+  margin-top: 8%;
+}
+
 .formContents {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .notification.is-primary {
   width: 100%;
   text-align: center;
+}
+
+.title.is-2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.container {
+  margin-bottom: 5%;
+}
+
+.startDate {
+  padding-right: 5%;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
 }
